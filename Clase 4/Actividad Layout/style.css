@@ -1,0 +1,40 @@
+#menu {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    min-height: 150px;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido {
+    float: left;
+    width: 75%;
+    min-height: 300px;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#pie {
+    clear: both;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#contenedor {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#cabecera {
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+* {
+    box-sizing: border-box; /* Fundamental para que los bordes no desarmen el layout */
+}

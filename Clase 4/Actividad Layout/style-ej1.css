@@ -1,0 +1,42 @@
+  /* Ejercicio 1: Modificar el float left a right para que aparezca a la derecha. También cambiar el margin-left para que siga apareciendo el margen entre menu y contenido. */
+
+#menu {
+    float: right;
+    width: 20%;
+    margin-left: 5%;
+    min-height: 150px;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido {
+    float: left;
+    width: 75%;
+    min-height: 300px;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#pie {
+    clear: both;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#contenedor {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#cabecera {
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+* {
+    box-sizing: border-box; /* Fundamental para que los bordes no desarmen el layout */
+}

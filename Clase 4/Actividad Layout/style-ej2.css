@@ -1,0 +1,34 @@
+/* Ejercicio 2: Ponemos en el id "menu". el display en none para que no se muestre, también en el id "contenido" se elimina el float y el width para que no quede el espacio donde iría el menú.*/
+
+#menu {
+    display: none;
+}
+
+#contenido {
+    min-height: 300px;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#pie {
+    clear: both;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#contenedor {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#cabecera {
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+* {
+    box-sizing: border-box; /* Fundamental para que los bordes no desarmen el layout */
+}

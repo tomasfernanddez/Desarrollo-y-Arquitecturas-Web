@@ -1,0 +1,29 @@
+/* Ejercicio 3: Ponemos en el id "cabecera" el display en none para que no se muestre.*/
+
+#menu {
+    display: none;
+}
+
+#contenido {
+    min-height: 300px;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#pie {
+    display: none;
+}
+
+#contenedor {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#cabecera {
+    display: none;
+}
+
+* {
+    box-sizing: border-box; /* Fundamental para que los bordes no desarmen el layout */
+}
