@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    padding: 20px;
+}
+
+
+.flotar-izq {
+    float: left;
+}
+
+.flotar-der {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contenedor-principal {
+    width: 850px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cabecera-boletin {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 5px solid #ffcc00;
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/008/563/753/small/white-marble-nature-background-free-photo.jpg);
+    background-size: 100%;
+}
+
+.meta-datos {
+    border-top: 2px solid #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.titulo-diario {
+    font-size: 55px;
+    font-family: 'Arial Black', Impact, sans-serif;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.subtitulo-colegio {
+    font-size: 18px;
+    font-style: italic;
+    color: #666;
+    font-weight: normal;
+}
+
+.cuerpo-documento {
+    width: 100%;
+}
+
+.columna-lateral {
+    float: left;
+    width: 30%;
+    background-color: #12b5b0;
+    color: #fff;
+    padding: 20px;
+}
+
+.titulo-seccion {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #0b5f5c;
+}
+
+.articulo-lateral {
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.titulo-articulo {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.texto-lateral {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.indice-contenido {
+    margin-top: 20px;
+}
+
+.lista-indice {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.columna-principal {
+    float: right;
+    width: 70%;
+    padding: 30px;
+}
+
+.img-destacada {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.titular-principal {
+    font-size: 32px;
+    font-family: 'Arial Black', sans-serif;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.texto-cuerpo {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.link-referencia {
+    color: #12b5b0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-leer-mas {
+    float: right;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.pie-pagina {
+    clear: both;
+    padding: 15px 40px;
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+}
