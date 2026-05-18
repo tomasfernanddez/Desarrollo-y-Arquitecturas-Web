@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.cabecera {
+    background-color: #1e6051;
+    text-align: center;
+    padding: 40px 0 200px 0;
+}
+
+.etiqueta-newsletter {
+    background-color: #ffffff;
+    color: #1e6051;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cuerpo-pagina {
+    background-color: #e4e2d3;
+    padding: -20px 40px 0 40px;
+    text-align: center;
+}
+
+.tarjeta-bienvenida {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: -150px auto 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-bienvenida {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-bienvenida td {
+    vertical-align: top;
+}
+
+.columna-imagen {
+    width: 220px;
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.columna-texto {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.subtitulo-bienvenida {
+    color: #cc8b3c;
+    margin: 0 0 5px 0;
+    font-size: 18px;
+}
+
+.nombre-empleado {
+    color: #1e6051;
+    margin: 0 0 5px 0;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.puesto-trabajo {
+    color: #555555;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.puntos {
+    color: #cc8b3c;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.mensaje-bienvenida {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.titulo-acciones {
+    color: #1e6051;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.tabla-acciones {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto -80px auto;
+    position: relative;
+    z-index: 10;
+    table-layout: fixed;
+    border-spacing: 20px 0;
+}
+
+.tarjeta-accion {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    vertical-align: top;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.icono-accion {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.titulo-accion {
+    color: #1e6051;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.tarjeta-accion p {
+    line-height: 1.5;
+    color: #444444;
+}
+
+.pie-pagina {
+    background-color: #dbd6ae;
+    padding: 120px 60px 40px 60px;
+    position: relative;
+}
+
+.tabla-pie {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tabla-pie td {
+    vertical-align: top;
+    width: 50%;
+}
+
+.pie-izq {
+    text-align: left;
+    padding-right: 40px;
+}
+
+.titulo-pie {
+    color: #1e6051;
+    margin-top: 0;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.redes-sociales i {
+    font-size: 32px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.fi-brands-facebook { color: #1e6051; } 
+.fi-brands-instagram { color: #1e6051; } 
+.fi-brands-tik-tok { color: #1e6051; }
+
+.usuario-redes {
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.pie-der {
+    text-align: right;
+}
+
+.logo-pie {
+    color: #1e6051;
+    margin-top: 0;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.logo-pie-imagen {
+    height: 35px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.lista-contacto {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.lista-contacto a {
+    color: #333333;
+    text-decoration: none;
+}
